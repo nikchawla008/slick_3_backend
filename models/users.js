@@ -23,4 +23,4 @@ let usersSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('User', usersSchema, "OCT_Users")
+module.exports = mongoose.model('User', usersSchema, "SLICK_Users")
